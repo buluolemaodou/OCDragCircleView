@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F2B563F1D77D64A005A1E84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B563E1D77D64A005A1E84 /* main.m */; };
+		7F2B56421D77D64A005A1E84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B56411D77D64A005A1E84 /* AppDelegate.m */; };
+		7F2B56451D77D64A005A1E84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B56441D77D64A005A1E84 /* ViewController.m */; };
+		7F2B56481D77D64A005A1E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2B56461D77D64A005A1E84 /* Main.storyboard */; };
+		7F2B564A1D77D64A005A1E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2B56491D77D64A005A1E84 /* Assets.xcassets */; };
+		7F2B564D1D77D64A005A1E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2B564B1D77D64A005A1E84 /* LaunchScreen.storyboard */; };
+		7F2B56581D77D64A005A1E84 /* OCDragCircleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B56571D77D64A005A1E84 /* OCDragCircleViewTests.m */; };
+		7F2B56631D77D64A005A1E84 /* OCDragCircleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B56621D77D64A005A1E84 /* OCDragCircleViewUITests.m */; };
+		7F2B56721D77D714005A1E84 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B56711D77D714005A1E84 /* MyViewController.m */; };
+		7F2B56751D77D72E005A1E84 /* LMDragCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2B56741D77D72E005A1E84 /* LMDragCircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F2B56541D77D64A005A1E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F2B56321D77D649005A1E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2B56391D77D649005A1E84;
+			remoteInfo = OCDragCircleView;
+		};
+		7F2B565F1D77D64A005A1E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F2B56321D77D649005A1E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F2B56391D77D649005A1E84;
+			remoteInfo = OCDragCircleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F2B563A1D77D649005A1E84 /* OCDragCircleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDragCircleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2B563E1D77D64A005A1E84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F2B56401D77D64A005A1E84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F2B56411D77D64A005A1E84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F2B56431D77D64A005A1E84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F2B56441D77D64A005A1E84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F2B56471D77D64A005A1E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F2B56491D77D64A005A1E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F2B564C1D77D64A005A1E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F2B564E1D77D64A005A1E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2B56531D77D64A005A1E84 /* OCDragCircleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCDragCircleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2B56571D77D64A005A1E84 /* OCDragCircleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDragCircleViewTests.m; sourceTree = "<group>"; };
+		7F2B56591D77D64A005A1E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2B565E1D77D64A005A1E84 /* OCDragCircleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCDragCircleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2B56621D77D64A005A1E84 /* OCDragCircleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDragCircleViewUITests.m; sourceTree = "<group>"; };
+		7F2B56641D77D64A005A1E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2B56701D77D714005A1E84 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		7F2B56711D77D714005A1E84 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		7F2B56731D77D72E005A1E84 /* LMDragCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMDragCircleView.h; sourceTree = "<group>"; };
+		7F2B56741D77D72E005A1E84 /* LMDragCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMDragCircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F2B56371D77D649005A1E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2B56501D77D64A005A1E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2B565B1D77D64A005A1E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F2B56311D77D649005A1E84 = {
+			isa = PBXGroup;
+			children = (
+				7F2B563C1D77D64A005A1E84 /* OCDragCircleView */,
+				7F2B56561D77D64A005A1E84 /* OCDragCircleViewTests */,
+				7F2B56611D77D64A005A1E84 /* OCDragCircleViewUITests */,
+				7F2B563B1D77D649005A1E84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F2B563B1D77D649005A1E84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F2B563A1D77D649005A1E84 /* OCDragCircleView.app */,
+				7F2B56531D77D64A005A1E84 /* OCDragCircleViewTests.xctest */,
+				7F2B565E1D77D64A005A1E84 /* OCDragCircleViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F2B563C1D77D64A005A1E84 /* OCDragCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				7F2B56701D77D714005A1E84 /* MyViewController.h */,
+				7F2B56711D77D714005A1E84 /* MyViewController.m */,
+				7F2B56731D77D72E005A1E84 /* LMDragCircleView.h */,
+				7F2B56741D77D72E005A1E84 /* LMDragCircleView.m */,
+				7F2B56401D77D64A005A1E84 /* AppDelegate.h */,
+				7F2B56411D77D64A005A1E84 /* AppDelegate.m */,
+				7F2B56431D77D64A005A1E84 /* ViewController.h */,
+				7F2B56441D77D64A005A1E84 /* ViewController.m */,
+				7F2B56461D77D64A005A1E84 /* Main.storyboard */,
+				7F2B56491D77D64A005A1E84 /* Assets.xcassets */,
+				7F2B564B1D77D64A005A1E84 /* LaunchScreen.storyboard */,
+				7F2B564E1D77D64A005A1E84 /* Info.plist */,
+				7F2B563D1D77D64A005A1E84 /* Supporting Files */,
+			);
+			path = OCDragCircleView;
+			sourceTree = "<group>";
+		};
+		7F2B563D1D77D64A005A1E84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F2B563E1D77D64A005A1E84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F2B56561D77D64A005A1E84 /* OCDragCircleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F2B56571D77D64A005A1E84 /* OCDragCircleViewTests.m */,
+				7F2B56591D77D64A005A1E84 /* Info.plist */,
+			);
+			path = OCDragCircleViewTests;
+			sourceTree = "<group>";
+		};
+		7F2B56611D77D64A005A1E84 /* OCDragCircleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F2B56621D77D64A005A1E84 /* OCDragCircleViewUITests.m */,
+				7F2B56641D77D64A005A1E84 /* Info.plist */,
+			);
+			path = OCDragCircleViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F2B56391D77D649005A1E84 /* OCDragCircleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2B56671D77D64A005A1E84 /* Build configuration list for PBXNativeTarget "OCDragCircleView" */;
+			buildPhases = (
+				7F2B56361D77D649005A1E84 /* Sources */,
+				7F2B56371D77D649005A1E84 /* Frameworks */,
+				7F2B56381D77D649005A1E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCDragCircleView;
+			productName = OCDragCircleView;
+			productReference = 7F2B563A1D77D649005A1E84 /* OCDragCircleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F2B56521D77D64A005A1E84 /* OCDragCircleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2B566A1D77D64A005A1E84 /* Build configuration list for PBXNativeTarget "OCDragCircleViewTests" */;
+			buildPhases = (
+				7F2B564F1D77D64A005A1E84 /* Sources */,
+				7F2B56501D77D64A005A1E84 /* Frameworks */,
+				7F2B56511D77D64A005A1E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F2B56551D77D64A005A1E84 /* PBXTargetDependency */,
+			);
+			name = OCDragCircleViewTests;
+			productName = OCDragCircleViewTests;
+			productReference = 7F2B56531D77D64A005A1E84 /* OCDragCircleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F2B565D1D77D64A005A1E84 /* OCDragCircleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2B566D1D77D64A005A1E84 /* Build configuration list for PBXNativeTarget "OCDragCircleViewUITests" */;
+			buildPhases = (
+				7F2B565A1D77D64A005A1E84 /* Sources */,
+				7F2B565B1D77D64A005A1E84 /* Frameworks */,
+				7F2B565C1D77D64A005A1E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F2B56601D77D64A005A1E84 /* PBXTargetDependency */,
+			);
+			name = OCDragCircleViewUITests;
+			productName = OCDragCircleViewUITests;
+			productReference = 7F2B565E1D77D64A005A1E84 /* OCDragCircleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F2B56321D77D649005A1E84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bingdian;
+				TargetAttributes = {
+					7F2B56391D77D649005A1E84 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7F2B56521D77D64A005A1E84 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7F2B56391D77D649005A1E84;
+					};
+					7F2B565D1D77D64A005A1E84 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7F2B56391D77D649005A1E84;
+					};
+				};
+			};
+			buildConfigurationList = 7F2B56351D77D649005A1E84 /* Build configuration list for PBXProject "OCDragCircleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F2B56311D77D649005A1E84;
+			productRefGroup = 7F2B563B1D77D649005A1E84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F2B56391D77D649005A1E84 /* OCDragCircleView */,
+				7F2B56521D77D64A005A1E84 /* OCDragCircleViewTests */,
+				7F2B565D1D77D64A005A1E84 /* OCDragCircleViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F2B56381D77D649005A1E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2B564D1D77D64A005A1E84 /* LaunchScreen.storyboard in Resources */,
+				7F2B564A1D77D64A005A1E84 /* Assets.xcassets in Resources */,
+				7F2B56481D77D64A005A1E84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2B56511D77D64A005A1E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2B565C1D77D64A005A1E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F2B56361D77D649005A1E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2B56451D77D64A005A1E84 /* ViewController.m in Sources */,
+				7F2B56421D77D64A005A1E84 /* AppDelegate.m in Sources */,
+				7F2B56721D77D714005A1E84 /* MyViewController.m in Sources */,
+				7F2B563F1D77D64A005A1E84 /* main.m in Sources */,
+				7F2B56751D77D72E005A1E84 /* LMDragCircleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2B564F1D77D64A005A1E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2B56581D77D64A005A1E84 /* OCDragCircleViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2B565A1D77D64A005A1E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2B56631D77D64A005A1E84 /* OCDragCircleViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F2B56551D77D64A005A1E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F2B56391D77D649005A1E84 /* OCDragCircleView */;
+			targetProxy = 7F2B56541D77D64A005A1E84 /* PBXContainerItemProxy */;
+		};
+		7F2B56601D77D64A005A1E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F2B56391D77D649005A1E84 /* OCDragCircleView */;
+			targetProxy = 7F2B565F1D77D64A005A1E84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F2B56461D77D64A005A1E84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F2B56471D77D64A005A1E84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F2B564B1D77D64A005A1E84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F2B564C1D77D64A005A1E84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F2B56651D77D64A005A1E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F2B56661D77D64A005A1E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F2B56681D77D64A005A1E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = OCDragCircleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingdian.OCDragCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F2B56691D77D64A005A1E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = OCDragCircleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingdian.OCDragCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F2B566B1D77D64A005A1E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OCDragCircleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingdian.OCDragCircleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCDragCircleView.app/OCDragCircleView";
+			};
+			name = Debug;
+		};
+		7F2B566C1D77D64A005A1E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OCDragCircleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingdian.OCDragCircleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCDragCircleView.app/OCDragCircleView";
+			};
+			name = Release;
+		};
+		7F2B566E1D77D64A005A1E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OCDragCircleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingdian.OCDragCircleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCDragCircleView;
+			};
+			name = Debug;
+		};
+		7F2B566F1D77D64A005A1E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OCDragCircleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingdian.OCDragCircleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OCDragCircleView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F2B56351D77D649005A1E84 /* Build configuration list for PBXProject "OCDragCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2B56651D77D64A005A1E84 /* Debug */,
+				7F2B56661D77D64A005A1E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2B56671D77D64A005A1E84 /* Build configuration list for PBXNativeTarget "OCDragCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2B56681D77D64A005A1E84 /* Debug */,
+				7F2B56691D77D64A005A1E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F2B566A1D77D64A005A1E84 /* Build configuration list for PBXNativeTarget "OCDragCircleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2B566B1D77D64A005A1E84 /* Debug */,
+				7F2B566C1D77D64A005A1E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F2B566D1D77D64A005A1E84 /* Build configuration list for PBXNativeTarget "OCDragCircleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2B566E1D77D64A005A1E84 /* Debug */,
+				7F2B566F1D77D64A005A1E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F2B56321D77D649005A1E84 /* Project object */;
+}
